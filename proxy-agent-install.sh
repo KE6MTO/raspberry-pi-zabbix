@@ -21,7 +21,7 @@ groupadd zabbix
 useradd -g zabbix zabbix
 
 #extract zabbix source
-tar -vzxf zabbix-*.tar.gz -C ~
+tar -vzxf zabbix-3.4.11.tar.gz -C ~
 
 #create basic database
 mkdir -p /var/lib/sqlite
